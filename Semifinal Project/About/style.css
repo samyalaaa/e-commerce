@@ -1,0 +1,207 @@
+body,p,h1,h2,h3,span{
+    font-family: "Albert Sans", serif;
+}
+.navvv .navbar .navbar-nav .nav-item{
+    margin-bottom: 15px;
+}
+/* homepage */
+.home{
+    height: 130vh;
+    background-image: url(./../images/about-banner-01.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.home .text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 51.6px;
+}
+/* Ecomus */
+.Ecomus .text{
+    color: rgb(0, 0, 0);
+    padding: 65px 0;
+    text-align: center;
+}
+.Ecomus .text span{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.Ecomus .text .para{
+    margin-top: 20px;
+}
+.Ecomus .text .para p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+    margin: 0;
+    padding: 0;
+}
+
+/* Established */
+.Established{
+    margin: 80px 0;
+}
+.Established .col-lg-6 .text{
+    text-align: start;
+    margin-top: 130px;
+    margin-left: 60px;
+}
+.Established .text h3{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.Established .text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+}
+
+/* mission */
+.mission .col-lg-6{
+    margin: 80px 0;
+}
+.mission .gallery{
+ width: 80%;
+}
+.mission{
+    background-image: url(./../images/collection-71.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.mission .col-lg-6 .text{
+    text-align: start;
+    margin-top: 130px;
+    margin-left: 60px;
+}
+.mission .text h3{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.mission .text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+}
+
+/* Quality */
+.quality{
+    margin: 80px 0;
+}
+.quality .container{
+    background-color: rgb(251, 247, 240);
+    border-radius: 10px;
+    padding: 80px ;
+    text-align: center;
+}
+.quality .title{
+    text-align: center;
+}
+.quality .title h2{
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px ;
+    margin-bottom: 20px;
+}
+.quality .title p{
+    color: rgb(84, 84, 84);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px ;
+}
+.quality .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 40px 0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    line-height: 5; 
+}
+.quality .center{
+    text-align: center;
+}
+.quality .text h3{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px ;
+    text-align: center;
+}
+.quality .text p{
+    color: rgb(84, 84, 84);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px ;
+    text-align: center;
+}
+
+/* Review */
+.review{
+    margin: 80px 0;
+}
+.review .text{
+    margin: 100px 0;
+}
+.review .text h2{
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.review .text .icon{
+    color: rgb(255, 123, 84);
+    margin-bottom: 15px;
+}
+.review .text p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.review .text h3{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+/* Shop gram */
+.cards .col{
+    padding: 0 5px;
+}
+.cards .title{
+    text-align: center;
+    margin: 40px 0;
+}
+.cards .title h3{
+    color: #000;
+    font-size: 42px; 
+    font-weight: 400;
+    line-height: 50px;
+}
+.cards .title p{
+    color: #000;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 22px;
+}
+/* footer */
+.footer{
+    background-color: transparent;
+}

@@ -1,0 +1,56 @@
+body,p,h1,h2,h3{
+    font-family: "Albert Sans", serif;
+}
+/* page */
+.page .content{
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    text-align: center;
+}
+/* cards */
+
+.cards .promo-banner .promo-content {
+    position: absolute;
+    left: 20%;
+    top: 74%;
+}
+.cards .promo-banner .promo-content .shop-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.cards .promo-banner .promo-content .shop-button:hover {
+   color: black;
+   background-color: white;
+}
+.cards .title p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all .5s;
+}
+.cards .title p:hover{
+    color: red;
+}
+.cards .title a{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .5s;
+}
+.cards .title a:hover{
+    color: red;
+}
+/*  */
+.footer{
+    background-color: transparent;
+}
