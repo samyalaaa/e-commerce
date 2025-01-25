@@ -1,0 +1,79 @@
+body,p,h1,h2,h3{
+    font-family: "Albert Sans", serif;
+}
+
+.containerr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+
+.tab {
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tab.active {
+    font-weight: 600;
+}
+
+.tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.product-description {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.features-list li, .care-list li {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.care-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.care-icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
